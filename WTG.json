@@ -1,0 +1,43 @@
+[
+ {
+   "uri": "/asset/wind_turbine_01",
+   "created-timestamp": "1465929466743",
+   "serial": "12896",
+   "padMount": "1",
+   "manufacturer": "GE",
+   "model": "ABC",
+   "height": {
+     "value": 100,
+     "unit": "m"
+   },
+   "power-rating": {
+     "value": 1.6,
+     "unit": "MW"
+   },
+   "location": {
+     "lat": 40.575,
+     "long": -124.358
+   },
+   "readings": {
+     "power-rating": {
+       "uri": "/asset/12896:powerrating",
+       "tag": "12896:powerrating",
+       "unit": "MW"
+     },
+     "wind-speed": {
+       "uri": "/asset/12896:windspeed",
+       "tag": "112896:windspeed",
+       "unit": "m/s"
+     }
+   }
+ },{
+   "uri": "/asset/asset-12896-power-rating",
+   "created-timestamp": "1465929466743",
+   "serial": "12896:powerrating"
+ },
+ {
+   "uri": "/asset/asset-12896-wind-speed",
+   "created-timestamp": "1465929466743",
+   "serial": "112896:windspeed"
+ }
+]

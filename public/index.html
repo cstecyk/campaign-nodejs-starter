@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Predix Node JS Starter App</title>
+<link rel="stylesheet" href="stylesheets/style.css"></link>
+<script src="../chartjs-scripts/Chart.bundle.js"></script>
+<script src="../scripts/Asset.js"></script>
+<script src="../scripts/LiveChart.js"></script>
+</head>
+<body onload="getAssetData2();">
+	<div class="header">
+		<div>
+			<h2>Wind Farm Application</h2>
+		</div>
+		<div></div>
+		<div class="header-logo-container">
+			<img class="header-logo" src="/images/predix_logo.svg"></img>
+		</div>
+	</div>
+	<div class="container">
+		<div class="leftpane">
+		<br>
+			<img class="turbine-logo" src="https://www.predix.com/sites/default/files/ecorotor-atop2.gif"
+				alt="Wind-Turbine_01"></img>
+		</div>
+		<div class="middlepane">
+			<h1>
+				Wind Turbine specification
+			</h1>
+			<h4>
+				<b>Turbine Details</b>
+			</h4>
+			<div id="wind_turbine_specification">
+			</div >
+			<h4>
+				<b>Sensor Details</b>
+			</h4>
+			<div id="wind_turbine_sensor">
+			</div>
+		</div>
+		<div class="rightpane">
+			<div style="width:100%">
+              <h1 id='line_chart_info'>Real time data for Sensors</h1>
+              <canvas id="tagChart" width="600" height="600"></canvas>
+          </div>
+		</div>
+	</div>
+	<div class="bottompane">
+			<a href="javascript:submitTshirt();">Get My Free T-Shirt</a>
+		</div>
+	<div class="footer">
+		<div class="footer-logo-container">
+			<img class="footer-logo" src="/images/monogram-wdmk.png"></img>
+		</div>
+	</div>
+</body>
+
+</html>

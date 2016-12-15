@@ -1,0 +1,16 @@
+---
+applications:
+- name: campagin-nodejs-starter
+  memory: 128M
+  buildpack: nodejs_buildpack
+  #command:  DEBUG=express:* node app.js
+  command: node app.js
+#services:
+  #- your-uaa
+  #- your-asset
+env:
+    node_env: cloud
+    uaa_service_label : predix-uaa
+    clientId: app_client_id
+    base64ClientCredential: YXBwX2NsaWVudF9pZDpzZWNyZXQ=
+    campaignappurl : http://go.digital.ge.com/predix-tshirt-details.html
