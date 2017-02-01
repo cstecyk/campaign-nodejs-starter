@@ -1,6 +1,6 @@
 {
   "name": "security-predix-boot-node-app",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node app.js",
@@ -26,7 +26,6 @@
     "websocket": "^1.0.23"
   },
   "author": "swapnavad,gstroup",
-  "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.5.3"
