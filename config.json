@@ -1,0 +1,14 @@
+{
+  "development":{
+    "clientId": "app_client_id",
+    "name": "camp-test",
+    "uaaURL": "{UAA URI from VCAPS}",
+    "base64ClientCredential": "YXBwX2NsaWVudF9pZDpzZWNyZXQ=",
+    "appUrl": "http://localhost:3000",
+    "assetZoneId": "{Asset Http zone header from VCAPS}",
+    "assetURL": "{Asset URI from VCAPS}",
+    "tagname":"power-output",
+    "username" : "testuser",
+    "campaignappurl" : "http://go.digital.ge.com/predix-tshirt-details.html"
+  }
+}
